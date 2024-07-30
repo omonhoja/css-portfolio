@@ -21,6 +21,14 @@
 
 
   .header{
+  
+  }
+
+
+  .header__fixed{
+    width: 100%;
+    box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.1);
+    background-color: #fff;
   }
 
   /* navbar start */
@@ -35,6 +43,11 @@
     align-items: center;
     list-style: none;
     max-width: 800px;
+  }
+  .header__navbar{
+    top: 50px;
+    position: sticky;
+    width: 100%;
   }
 
   .header__navbar__ul {
